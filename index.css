@@ -1,0 +1,130 @@
+body{
+
+    background-color: rgb(61, 61, 61);
+    margin: 0;
+    color: white;
+   
+}
+
+.container h1 , p{
+    
+    letter-spacing: 3px;
+
+}
+
+.border-conImg{
+
+    background-color: rgb(51, 53, 53);
+    padding: 40px 0px;
+    border: 4px rgb(255, 52, 113) solid ;
+    border-right: none;
+
+}
+
+.border-conForm{
+
+    background-color: rgb(51, 53, 53);
+    padding: 40px 0px;
+    border: 4px rgb(255, 52, 113) solid ;
+    border-left: none;
+
+}
+
+.card{
+    background: none;
+    border: none;
+    margin-top: 10%;
+    /* background-color: rgb(229, 255, 0); */
+}
+
+.card img{
+    
+    margin-left:25% ;
+    width: 80%;
+    height: 200px;
+    object-fit: cover;
+    padding: 0%;
+    box-shadow: 1px 1px 5px rgb(255, 52, 113);
+}
+
+/* .form-con{
+
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+
+} */
+
+.form-con input ,label{
+
+    padding: 4px;
+    margin: 10px 0px 0px 5px;
+}
+
+form{
+
+    width: 100%;
+    margin: 0;
+}
+
+form > div{
+
+
+    margin-right: 300px;
+
+}
+
+.form-con input{
+    color: white;
+    border: 2px rgb(226, 47, 100) solid ;
+    background:rgb(94, 94, 94); 
+    outline: none;
+    margin-right: 50px;
+    width: 200%;
+}
+
+.form-con input[type="number"]{
+
+        width: 20%;
+
+
+}
+
+.btn{
+
+    padding:8px 40px ;
+    font-weight: 500;
+    color:rgb(255, 255, 255); 
+    font-family: 'comic sans', cursive ; 
+    border-radius: 10px;
+}
+
+.btn-submit{
+    margin:0px 100px ;
+    background-color: #641f45;
+}
+
+.btn-submit:hover{
+
+    background-color: #fcff46;
+    box-shadow: 2px 2px 15px 2px #ffcc25;
+    color:#f3722c;
+  
+
+}
+
+.btn-cancel{
+
+    background-color: #851f1f;
+
+}
+
+.btn-cancel:hover{
+
+    background-color: #ee2828;
+    box-shadow: 2px 2px 15px 2px #ff3333;
+    
+
+
+}
